@@ -1,5 +1,5 @@
 <?php
-echo "test";
+echo "Sometjhing else";
 /**
  * Created by PhpStorm.
  * User: mew
