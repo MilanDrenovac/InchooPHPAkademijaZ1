@@ -7,10 +7,10 @@
 <h1>Yeah so this is Grid Generator</h1>
 <p>It's way simpler then I imagined so let me borrow some CSS from Skeleton at least for the buttons...</p><br>
 <p>Also I use POST time time instead of GET so it's technically more "secure"</p>
-<a class="button" href="index.html">Homepage aka Index</a>
-<a class="button" href="Bootstrap.php">Bootstrap</a>
-<a class="button" href="skeleton.php">Skeleton</a>
-<a class="button" href="foundation.php">Foundation</a>
+<a class="button" href="../index.html">Homepage aka Index</a>
+<a class="button" href="../Bootstrap/Bootstrap.php">Bootstrap</a>
+<a class="button" href="../Skeleton/skeleton.php">Skeleton</a>
+<a class="button" href="../Foundation/foundation.php">Foundation</a>
 <?php
 if (isset($_POST['color']))
 {

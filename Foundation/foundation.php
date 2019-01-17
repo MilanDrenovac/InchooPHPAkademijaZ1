@@ -19,10 +19,10 @@
     <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
             <div class="callout">
-                <a href="index.html" class="button">Index</a>
-                <a href="Bootstrap.php" class="success button">Bootstrap</a>
-                <a href="skeleton.php" class="alert button">Skeleton</a>
-                <a href="custom.php" class="secondary button">Custom</a></p>
+                <a href="../index.html" class="button">Index</a>
+                <a href="../Bootstrap/Bootstrap.php" class="success button">Bootstrap</a>
+                <a href="../Skeleton/skeleton.php" class="alert button">Skeleton</a>
+                <a href="../Custom/custom.php" class="secondary button">Custom</a></p>
                 <h3>We&rsquo;re stoked you want to try Foundation! </h3>
                 <p>Man they included a lot here</p>
                 <p>Way more then I need right now so I'm just going to use the top part really...</p>
@@ -53,8 +53,12 @@
                         $var4 = $_GET["D"];
                         $var5 = $_GET["E"];
                         if (is_numeric($var1) && is_numeric($var2) && is_numeric($var3) && is_numeric($var4) && is_numeric($var5)) {
+                            if (is_decimal($var1) || is_decimal($var2) || is_decimal($var3) || is_decimal($var4) || is_decimal($var5)){
+                                echo "It's not really aligned with decimal numbers sorry...";
+                            }
                             echo 'The sum of your numbers is:';
                             echo '<p align="right">', $var1, '<br>', $var2, '<br>', $var3, '<br>', $var4, '<br><u>', $var5, '</u><br>', $var1 + $var2 + $var3 + $var4 + $var5, '</p>';
+
                         }
                         else{
                             echo 'Sorry thats not numbers...';
@@ -70,9 +74,9 @@
 
 </div>
 
-<script src="js/vendor/jquery.js"></script>
-<script src="js/vendor/what-input.js"></script>
-<script src="js/vendor/foundation.js"></script>
-<script src="js/app.js"></script>
+<script src="../Bootstrap/js/vendor/jquery.js"></script>
+<script src="../Bootstrap/js/vendor/what-input.js"></script>
+<script src="../Bootstrap/js/vendor/foundation.js"></script>
+<script src="../Bootstrap/js/app.js"></script>
 </body>
 </html>

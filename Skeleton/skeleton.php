@@ -24,7 +24,7 @@
 
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="image/favicon.png">
 
 </head>
 <body>
@@ -33,10 +33,10 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div class="container">
     <div class="row">
-    <a class="button" href="index.html">Homepage aka Index</a>
-    <a class="button" href="Bootstrap.php">Bootstrap</a>
-    <a class="button" href="foundation.php">Foundation</a>
-    <a class="button" href="custom.php">Custom</a>
+    <a class="button" href="../index.html">Homepage aka Index</a>
+    <a class="button" href="../Bootstrap/Bootstrap.php">Bootstrap</a>
+    <a class="button" href="../Foundation/foundation.php">Foundation</a>
+    <a class="button" href="../Custom/custom.php">Custom</a>
     </div>
     <div class="row">
         <div class="one-half column" style="margin-top: 25%">

@@ -66,10 +66,10 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">Index</a></li>
-                <li><a href="foundation.php">Foundation</a></li>
-                <li><a href="skeleton.php">Skeleton</a></li>
-                <li><a href="custom.php">Custom</a></li>
+                <li><a href="../index.html">Index</a></li>
+                <li><a href="../Foundation/foundation.php">Foundation</a></li>
+                <li><a href="../Skeleton/skeleton.php">Skeleton</a></li>
+                <li><a href="../Custom/custom.php">Custom</a></li>
             </ul>
         </div>
     </div>
@@ -99,7 +99,7 @@
     <div class="row">
         <div class="col-sm-4">
             <p>Simple Operations</p>
-            <img src="images/Simple%20operators.png" class="img-responsive margin" style="width:100%" alt="Image">
+            <img src="images/Simple operators.png" class="img-responsive margin" style="width:100%" alt="Image">
             <div>
                 <?php
                 $var1 = $_GET["A"];
