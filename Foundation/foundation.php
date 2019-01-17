@@ -59,7 +59,7 @@ function is_decimal( $val )
                         $var4 = $_GET["D"];
                         $var5 = $_GET["E"];
                         if (is_numeric($var1) && is_numeric($var2) && is_numeric($var3) && is_numeric($var4) && is_numeric($var5)) {
-                            if (is_numeric($var1) || is_numeric($var2) || is_numeric($var3) || is_numeric($var4) || is_numeric($var5)) {
+                            if (is_decimal($var1) || is_decimal($var2) || is_decimal($var3) || is_decimal($var4) || is_decimal($var5)) {
                                 echo 'Sorry not aligned when decimal...','</br>';
                             }
                             echo 'The sum of your numbers is:';

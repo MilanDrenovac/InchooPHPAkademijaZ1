@@ -104,7 +104,7 @@
                 <?php
                 $var1 = $_GET["A"];
                 $var2 = $_GET["B"];
-                if (is_numeric($var1) || is_numeric($var2))
+                if (is_numeric($var1) && is_numeric($var2))
                 {
                     if ($var1>$var2)
                     {
@@ -128,7 +128,7 @@
             <?php
             $var1 = $_GET["A"];
             $var2 = $_GET["B"];
-            if (is_numeric($var1) || is_numeric($var2))
+            if (is_numeric($var1) && is_numeric($var2))
             {
                 if ($var1>=$var2)
                 {
@@ -151,7 +151,7 @@
             <?php
             $var1 = $_GET["A"];
             $var2 = $_GET["B"];
-            if (is_numeric($var1) || is_numeric($var2))
+            if (is_numeric($var1) && is_numeric($var2))
             {
                 echo 'A: ',--$var1,'<br>';
                 echo 'B: ',++$var2,'<br>';
