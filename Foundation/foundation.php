@@ -57,7 +57,7 @@
                                 echo "It's not really aligned with decimal numbers sorry...";
                             }
                             echo 'The sum of your numbers is:';
-                            echo '<p align="right">', $var1, '<br>', $var2, '<br>', $var3, '<br>', $var4, '<br><u>', $var5, '</u><br>', $var1 + $var2 + $var3 + $var4 + $var5, '</p>';
+                            echo '<p align="right">', $var1, '<br>', $var2, '<br>', $var3, '<br>', $var4, '<br><u><p align="left">+</p>', $var5, '</u><br>', $var1 + $var2 + $var3 + $var4 + $var5, '</p>';
 
                         }
                         else{
