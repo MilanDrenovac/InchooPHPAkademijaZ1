@@ -53,11 +53,8 @@
                         $var4 = $_GET["D"];
                         $var5 = $_GET["E"];
                         if (is_numeric($var1) && is_numeric($var2) && is_numeric($var3) && is_numeric($var4) && is_numeric($var5)) {
-                            if (is_decimal($var1) || is_decimal($var2) || is_decimal($var3) || is_decimal($var4) || is_decimal($var5)){
-                                echo "It's not really aligned with decimal numbers sorry...";
-                            }
                             echo 'The sum of your numbers is:';
-                            echo '<p align="right">', $var1, '<br>', $var2, '<br>', $var3, '<br>', $var4, '<br><u>', $var5, '</u><br>', $var1 + $var2 + $var3 + $var4 + $var5, '</p>';
+                            echo '<p align="right">', $var1, '<br>', $var2, '<br>', $var3, '<br>', $var4, '<br>','<u>+', $var5, '</u><br>', $var1 + $var2 + $var3 + $var4 + $var5, '</p>';
 
                         }
                         else{
