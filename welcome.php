@@ -7,7 +7,7 @@ $var2 = $_GET["B"];
 ?>
 
 <?php
-if (is_numeric($var1) || is_numeric($var2))
+if (is_numeric($var1) && is_numeric($var2))
 {
  echo 'A: ',$var1,'<br>';
   echo 'B: ',$var2,'<br>';
@@ -16,6 +16,9 @@ if (is_numeric($var1) || is_numeric($var2))
   echo 'Multiplication: ',$var1*$var2,'<br>';
   echo 'Division: ',$var1/$var2,'<br>';
   }
+else{
+    echo 'Sorry thats not numbers...';
+}
 ?>
 </body>
 
