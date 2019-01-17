@@ -62,14 +62,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">At lease it's not ugly right?(maybe it is)</a>
+            <a class="navbar-brand" href="#">At least it's not ugly right?(maybe it is)</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="index.html">Index</a></li>
-                <li><a href="foundation.html">Foundation</a></li>
-                <li><a href="skeleton.html">Skeleton</a></li>
-                <li><a href="Custom.html">Custom</a></li>
+                <li><a href="foundation.php">Foundation</a></li>
+                <li><a href="skeleton.php">Skeleton</a></li>
+                <li><a href="Custom.php">Custom</a></li>
             </ul>
         </div>
     </div>
