@@ -69,7 +69,7 @@
                 <li><a href="index.html">Index</a></li>
                 <li><a href="foundation.php">Foundation</a></li>
                 <li><a href="skeleton.php">Skeleton</a></li>
-                <li><a href="Custom.php">Custom</a></li>
+                <li><a href="custom.php">Custom</a></li>
             </ul>
         </div>
     </div>
