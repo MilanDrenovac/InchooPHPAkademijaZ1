@@ -119,6 +119,9 @@
                         echo $var1,'=',$var2,'<br>';
                     }
                 }
+                else{
+                    echo 'Sorry thats not numbers';
+                }
                 ?>
             </div>
         </div>
@@ -143,6 +146,9 @@
                     echo $var1,'<>',$var2,'<br>';
                 }
             }
+            else{
+                echo 'Sorry thats not numbers';
+            }
             ?>
         </div>
         <div class="col-sm-4">
@@ -156,6 +162,9 @@
                 echo 'A: ',--$var1,'<br>';
                 echo 'B: ',++$var2,'<br>';
                 echo 'See if I use var++ here it woudnt display it the increase!';
+            }
+            else{
+                echo 'Sorry thats not numbers';
             }
             ?>
         </div>
