@@ -83,6 +83,6 @@ function is_decimal( $val )
 <script src="../Bootstrap/js/vendor/jquery.js"></script>
 <script src="../Bootstrap/js/vendor/what-input.js"></script>
 <script src="../Bootstrap/js/vendor/foundation.js"></script>
-<script src="../Bootstrap/js/app.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
